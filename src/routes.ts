@@ -1,4 +1,4 @@
-import express from 'express';
+import { Router } from 'express';
 import {celebrate, Joi} from 'celebrate';
 import multer from 'multer';
 import multerConfig from './config/multer';
@@ -6,7 +6,7 @@ import multerConfig from './config/multer';
 import LocationsController from './controllers/LocationsController';
 import ItemsController from './controllers/ItemsController';
 
-const routes = express.Router();
+const routes = Router();
 const upload = multer(multerConfig);
 
 const itemsController = new ItemsController();
