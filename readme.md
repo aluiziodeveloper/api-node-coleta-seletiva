@@ -59,10 +59,12 @@ npm install
 
 Após essa instalação, rode as migrations do banco de dados com o comando `npm run knex:migrate`, rode também a seed com `npm run knex:seed` e após, execute a aplicação com o comando `npm run dev`.
 
-### Contato
+## Redes Sociais
 
 [Site Aluizio Developer](https://aluiziodeveloper.com.br)
 
-[Instagram](https://www.instagram.com/smartcontacts/)
-
 [YouTube](https://www.youtube.com/jorgealuizio)
+
+[Servidor no Discord](https://discord.gg/3J87BMz5fD)
+
+[LinkedIn](https://www.linkedin.com/in/jorgealuizio/)
